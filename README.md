@@ -46,3 +46,7 @@ npm start
 ```
 
 ![desktop](http://files.cnblogs.com/files/zhongzf/angular2_electron_desktop.gif)
+
+## Usage for desktop with Electron
+```sh
+
