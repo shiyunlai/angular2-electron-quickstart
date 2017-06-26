@@ -5,7 +5,7 @@ Same code base built on Angular 2 can run both web and desktop environment.
 Angular
 =========
 
-Angular is a development platform for building mobile and desktop web applications. 
+Angular is a development platform for building mobile and desktop web applications.
 
 Repository:  https://github.com/angular/angular
 
@@ -50,3 +50,16 @@ npm start
 ## Usage for desktop with Electron
 ```sh
 
+Problem
+=========
+错误：运行 npm start 或者 npm run web 时报错
+``` shell
+/bin/sh: scss: command not found
+```
+解决：安装 sass
+``` shell
+$sudo gem install sass
+$sass -v
+Sass 3.4.24 (Selective Steve)
+```
+之后再执行 npm start 或 npm run web 成功启动！
