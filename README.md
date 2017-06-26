@@ -48,11 +48,13 @@ npm start
 ![desktop](http://files.cnblogs.com/files/zhongzf/angular2_electron_desktop.gif)
 
 ## Usage for desktop with Electron
-```sh
 
-Problem
+
+
+## Problem
 =========
-错误：运行 npm start 或者 npm run web 时报错
+
+问题：运行 npm start 或者 npm run web 时报错
 ``` shell
 /bin/sh: scss: command not found
 ```
